@@ -1,2 +1,2 @@
 # whales
-Thid is BEES3041 project
+This is BEES3041 project
