@@ -1,5 +1,10 @@
 #publication trend map
 
+#
+bib<-rbind.fill(bib1,bib2,bib3,bib4)
+results <- biblioAnalysis(bib, sep = ";")
+S <- summary(object = results, k=20 ,pause = FALSE)
+
 #Family Balaenidae
 bib<-rbind.fill(bib1,bib2,bib3,bib4)
 ggplot(bib,aes(PY))+
